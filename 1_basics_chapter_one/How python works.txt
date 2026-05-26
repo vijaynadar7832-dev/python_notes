@@ -1,0 +1,11 @@
+how python file works behind the scene
+1. we create a python file with .py extention 
+2. then we run this file then it will compile the .py file and create a byte-code which is stored in the .pyc extention 
+ (note- that bytecode is not a machine code, it is a low level code which is platform independent)
+ (mostly this .pyc file is hidden but when we create multiple files amd import data from one file to another then a folder is created name "__pycache__" and inside this folder the .pyc file is visible)
+3.then the the PVM(Python Virtual Machine) come in the role which also contains runtime engine here the bytecode is converted into machine code 
+  (note- both PVM and machine code is platform dependent) 
+  (note- machine code is the direct instruction to the hardware but bytecode is not a direst instruction to the hardware, that's why as we already discussed ByteCode is NOT a Machine Code)
+  (note- ByteCode is instruction only for PVM )
+
+
